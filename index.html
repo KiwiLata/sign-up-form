@@ -14,36 +14,52 @@
         <img src="mdi--penguin.png" title="logo" alt="a silhouette of a penguin">
         <p>Penguin</p>
       </div>
+      <div class="credit">
+        <p>Photo by Joshua Ryder on Unsplash</p>
+      </div>
     </div>
 
     <div class="content-container">
       <div class="info">
-        <p></p>
-        <p></p>
+        <p>This is not a real service. But if it was, you would be able to sign up here to gain access to courses on scuba diving in Arctic and Antarctic waters, scuba diving excursion offers and an exclusive shop with diving equipment in special prices for Penguin's memers.</p>
+        <p><em>Dive into your next adventure.</em></p>
       </div>
 
       <form action="" method="post">
-        <fieldset>
-          <legend>Let's do this!</legend>
+          <div class="form-block">
+            <h1>Let's do this!</h1>
+            <div class="form-fields">
+              <div>
+              <label for="first_name">First name</label>
+              <input type="text" id="first_name" name="user_firstName">
+              </div>
 
-          <label for="first_name">First name</label>
-          <input type="text" id="first_name" name="user_firstName">
+              <div>
+              <label for="last_name">Last name</label>
+              <input type="text" id="last_name" name="user_lastName">
+              </div>
 
-          <label for="last_name">Last name</label>
-          <input type="text" id="last_name" name="user_lastName">
+              <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="user_email">
+              </div>
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="user_email">
+              <div>
+              <label for="number">Phone number</label>
+              <input type="tel" id="number" name="user_phoneNumber">
+              </div>
 
-          <label for="number">Phone number</label>
-          <input type="tel" id="number" name="user_phoneNumber">
+              <div>
+              <label for="pwd">Password</label>
+              <input type="password" id="pwd" name="user_password">
+              </div>
 
-          <label for="pwd">Password</label>
-          <input type="password" id="pwd" name="user_password">
-
-          <label for="pwd2">Confirm password</label>
-          <input type="password" id="pwd" name="user_password2">
-        </fieldset>
+              <div>
+              <label for="pwd2">Confirm password</label>
+              <input type="password" id="pwd" name="user_password2">
+              </div> 
+            </div>
+          </div>
 
         <button type="submit">Create Account</button>
       </form>
